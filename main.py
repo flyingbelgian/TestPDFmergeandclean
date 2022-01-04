@@ -53,5 +53,6 @@ class PdfOut:
 new_file = PdfOut()
 new_file.writePDFusingClose()
 # new_file.writePDFusingWith()
-# time.sleep(10)
+print("All methods completed, starting 20sec sleep")
+time.sleep(20)
 new_file.cleanUp()
